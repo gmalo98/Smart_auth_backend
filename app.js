@@ -9,7 +9,7 @@ const app = express();
 app.use(cookieParser());
 
 app.use(cors({
-    origin: ['http://localhost:5173'],
+    origin: ['http://localhost:5173','https://smart-auth-frontend-hrke.vercel.app'],
     credentials: true,
     
 }));
